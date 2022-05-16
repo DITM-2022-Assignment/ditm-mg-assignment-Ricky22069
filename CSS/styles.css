@@ -23,7 +23,7 @@ body {
 }
 
 .navigation_bar {
-  background-color: #fafafa;
+  background-color: black;
   height: 50px;
   width: 100vw;
   margin-top: -16px;
@@ -44,12 +44,12 @@ body {
 
 .navigation_bar ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: 0.3s ease 0s;
-  text-shadow: 2px 2px #fafafa;
+  text-shadow: 2px 2px rgb(22, 22, 22);
 }
 
 .navigation_bar ul li a:hover {
-  color: blue;
+  color: red;
   text-decoration: underline;
 }

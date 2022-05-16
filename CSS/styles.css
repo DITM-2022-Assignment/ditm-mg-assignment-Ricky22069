@@ -9,16 +9,18 @@ body {
   width: 300px;
   padding: 25px;
   border-radius: 22px;
-  border: 4px solid aquamarine;
+  border: 5px solid aquamarine;
+  background-color: white;
   color: black;
 }
 
 .our_vision {
   border-radius: 22px;
-  border: 4px solid crimson;
+  border: 5px solid crimson;
   padding: 25px;
   height: 110px;
   width: 300px;
+  background-color: white;
   color: black;
 }
 

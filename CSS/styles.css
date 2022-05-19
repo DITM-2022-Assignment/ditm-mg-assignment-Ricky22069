@@ -4,6 +4,17 @@ body {
   padding: 0px;
 }
 
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .quote {
   height: 90px;
   width: 300px;

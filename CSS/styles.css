@@ -16,8 +16,11 @@ body {
 }
 
 .quote {
-  height: 90px;
-  width: 300px;
+  position: absolute;
+  top: 14%;
+  left: 9%;
+  height: 70px;
+  width: 280px;
   padding: 25px;
   border-radius: 22px;
   border: 5px solid aquamarine;
@@ -28,6 +31,9 @@ body {
 }
 
 .our_vision {
+  position: absolute;
+  bottom: 9%;
+  right: 7%;
   border-radius: 22px;
   border: 5px solid crimson;
   padding: 25px;
@@ -69,4 +75,9 @@ body {
 .navigation_bar ul li a:hover {
   color: red;
   text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  text-align: center;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(255, 255, 255);
   margin: 0px;
   padding: 0px;
 }
@@ -40,4 +40,26 @@ body {
   background-color: #ff2200e3;
   height: 200px;
   width: 100vw;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: -80px;
+  color: white;
+}
+
+.content {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 60px;
+  font-size: larger;
+  font-weight: 540;
+}
+
+h1 {
+  font-size: larger;
 }

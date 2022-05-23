@@ -23,7 +23,7 @@ body {
   width: 280px;
   padding: 25px;
   border-radius: 22px;
-  border: 5px solid aquamarine;
+  border: 5px solid #ff2200e3;
   background-color: white;
   color: black;
   font-weight: 500;
@@ -35,7 +35,7 @@ body {
   bottom: 9%;
   right: 7%;
   border-radius: 22px;
-  border: 5px solid crimson;
+  border: 5px solid #ff2200e3;
   padding: 25px;
   height: 80px;
   width: 270px;
@@ -80,4 +80,10 @@ body {
 .container {
   position: relative;
   text-align: center;
+}
+
+/*ARTICLES*/
+.art {
+  height: 200px;
+  width: 600px;
 }

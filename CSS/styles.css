@@ -3,6 +3,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+img {
+  width: 100%;
+}
 
 .column {
   float: left;
@@ -84,6 +87,25 @@ body {
 
 /*ARTICLES*/
 .art {
-  height: 200px;
-  width: 600px;
+  height: 370px;
+  width: 30%;
+  border: 2px groove black;
+  position: relative;
+  background-color: white;
+}
+h1 {
+  font-size: x-large;
+  font-weight: 520;
+}
+
+#art_title {
+  position: absolute;
+  top: 8;
+  left: 0;
+}
+
+#posted {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

@@ -41,7 +41,7 @@ body {
   height: 200px;
   width: 100vw;
 }
-
+/*Questions and titles */
 .title {
   display: flex;
   justify-content: center;

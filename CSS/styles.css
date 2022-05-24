@@ -22,9 +22,9 @@ img {
   position: absolute;
   top: 14%;
   left: 9%;
-  height: 70px;
-  width: 280px;
-  padding: 25px;
+  height: 120px;
+  width: 350px;
+  padding-top: 10px;
   border-radius: 22px;
   border: 5px solid #ff2200e3;
   background-color: white;
@@ -39,9 +39,11 @@ img {
   right: 7%;
   border-radius: 22px;
   border: 5px solid #ff2200e3;
-  padding: 25px;
-  height: 80px;
-  width: 270px;
+  height: 120px;
+  width: 360px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
   color: black;
   font-weight: 500;
@@ -87,8 +89,8 @@ img {
 
 /*ARTICLES*/
 .art {
-  height: 370px;
-  width: 30%;
+  height: 315px;
+  width: 25%;
   border: 2px groove black;
   position: relative;
   background-color: white;
@@ -102,10 +104,12 @@ h1 {
   position: absolute;
   top: 8;
   left: 0;
+  font-size: large;
 }
 
 #posted {
   position: absolute;
   bottom: 0;
   left: 0;
+  font-size: small;
 }

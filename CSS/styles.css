@@ -137,8 +137,15 @@ a:hover {
   width: 100vw;
   height: 50px;
   background-color: #ff2200e3;
-  text-align: center;
-  color: #ffffffe3;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: larger;
+  color: #ffffffe3;
+  text-align: center;
+}
+.button {
+  color: #ffffffe3;
+}
+.button:hover {
+  color: rgb(0, 81, 255);
+  text-decoration: underline;
 }

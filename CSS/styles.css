@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -148,4 +149,14 @@ a:hover {
 .button:hover {
   color: rgb(0, 81, 255);
   text-decoration: underline;
+}
+
+.valvoiceline {
+  position: absolute;
+  bottom: 60%;
+  right: 65%;
+}
+
+.valvoiceline > a:hover {
+  color: black;
 }

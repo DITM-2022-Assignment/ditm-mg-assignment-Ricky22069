@@ -136,7 +136,7 @@ a:hover {
 
 .footer {
   width: 100vw;
-  height: 50px;
+  height: 70px;
   background-color: #ff2200e3;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: larger;
@@ -145,6 +145,9 @@ a:hover {
 }
 .button {
   color: #ffffffe3;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: larger;
 }
 .button:hover {
   color: rgb(0, 81, 255);
@@ -153,4 +156,15 @@ a:hover {
 .giphy-embed {
   justify-content: center;
   align-items: center;
+}
+.cham {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+
+.sage {
+  height: 42px;
+  width: 42px;
+  margin-top: 10px;
 }

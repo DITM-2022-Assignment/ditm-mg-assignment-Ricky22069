@@ -1,3 +1,4 @@
+/*FAQ PAGE*/
 body {
   background-color: rgb(255, 255, 255);
   margin: 0px;
@@ -21,7 +22,9 @@ body {
 .navigation_bar ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 0.7%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.8%;
   font-size: 1.6rem;
 }
 
@@ -36,17 +39,19 @@ body {
   color: red;
   text-decoration: underline;
 }
+
 .tomato_background {
   background-color: #ff2200e3;
   height: 200px;
   width: 100vw;
 }
+
 /*Questions and titles */
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: bolder;
   margin-top: -80px;
   color: white;

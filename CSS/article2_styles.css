@@ -1,3 +1,4 @@
+/*2nd Article*/
 body {
   background-color: lightgrey;
   margin: 0px;
@@ -20,7 +21,9 @@ body {
 .navigation_bar ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 0.7%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.8%;
   font-size: 1.6rem;
 }
 

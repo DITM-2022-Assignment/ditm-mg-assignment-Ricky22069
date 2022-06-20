@@ -1,3 +1,4 @@
+/*Home page*/
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -8,6 +9,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/*4 Images-Sorting and arranging*/
 img {
   width: 100%;
 }
@@ -22,7 +24,7 @@ img {
   clear: both;
   display: table;
 }
-
+/*Quotes and Vision text modification*/
 .quote {
   height: 100px;
   width: 100vw;
@@ -66,7 +68,9 @@ img {
 .navigation_bar ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 0.7%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.8%;
   font-size: 1.6rem;
 }
 
@@ -133,7 +137,7 @@ a:hover {
   text-decoration: underline;
   color: #ff2200e3;
 }
-
+/*Footer*/
 .footer {
   width: 100vw;
   height: 70px;
@@ -145,26 +149,9 @@ a:hover {
 }
 .button {
   color: #ffffffe3;
-  margin-left: 500px;
-  margin-right: 500px;
   font-size: larger;
 }
 .button:hover {
   color: rgb(0, 81, 255);
   text-decoration: underline;
-}
-.giphy-embed {
-  justify-content: center;
-  align-items: center;
-}
-.cham {
-  height: 40px;
-  width: 40px;
-  margin-top: 10px;
-}
-
-.sage {
-  height: 42px;
-  width: 42px;
-  margin-top: 10px;
 }

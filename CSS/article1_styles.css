@@ -4,6 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 /*Navigation bar*/
 .navigation_bar {
   background-color: black;
@@ -39,13 +40,14 @@ body {
   text-decoration: underline;
 }
 
-/*Image, Text, Title*/
+/*Tomato Color for theme */
 .background {
   background-color: #ff2200e3;
   width: 100vw;
   height: 200px;
 }
 
+/*Formatting/Structure making it all align center*/
 .img > img {
   width: 40%;
   margin-left: 30%;

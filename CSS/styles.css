@@ -1,4 +1,5 @@
-/*Home page*/
+/*Home page (Makes back to top button scroll smoothly*/
+/*Overflow hides horizontal scroll and cuts it off*/
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -9,6 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 /*4 Images-Sorting and arranging*/
 img {
   width: 100%;
@@ -24,6 +26,7 @@ img {
   clear: both;
   display: table;
 }
+
 /*Quotes and Vision text modification*/
 .quote {
   height: 100px;
@@ -48,9 +51,11 @@ img {
   font-size: x-large;
   font-family: "Kdam Thmor Pro", sans-serif;
 }
+
 .earth {
   width: 100vw;
 }
+
 /*NAVIGATION BAR*/
 .navigation_bar {
   background-color: black;
@@ -107,6 +112,7 @@ img {
   margin: 15px;
   color: black;
 }
+
 h1 {
   font-size: x-large;
   font-weight: 520;
@@ -137,7 +143,8 @@ a:hover {
   text-decoration: underline;
   color: #ff2200e3;
 }
-/*Footer*/
+
+/*Footer and button effects*/
 .footer {
   width: 100vw;
   height: 70px;
@@ -147,10 +154,12 @@ a:hover {
   color: #ffffffe3;
   text-align: center;
 }
+
 .button {
   color: #ffffffe3;
   font-size: larger;
 }
+
 .button:hover {
   color: rgb(0, 81, 255);
   text-decoration: underline;
